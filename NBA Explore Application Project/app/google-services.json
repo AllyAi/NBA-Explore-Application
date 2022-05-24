@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229087750515",
+    "project_id": "nba-explore-application",
+    "storage_bucket": "nba-explore-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229087750515:android:0d3a22e6edcecc0ebe3d06",
+        "android_client_info": {
+          "package_name": "com.example.nbaexploreapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229087750515-glmtsl31dg6k9q81jurhhuu3djudqn7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwNLl8pOM5JaOc3tE07jdqYd-degTc3wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229087750515-glmtsl31dg6k9q81jurhhuu3djudqn7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
