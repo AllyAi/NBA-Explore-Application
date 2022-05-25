@@ -12,22 +12,31 @@ import android.widget.ImageButton;
 
 public class WelcomeActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private ImageButton nbaTicket;
-    private Button next;
+    private ImageButton nbaTicket, nbaMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        next = findViewById(R.id.button);
-        next.setOnClickListener(this);
+        nbaTicket = findViewById(R.id.imageButton2);
+        nbaTicket.setOnClickListener(this);
+
+        nbaMap = findViewById(R.id.imageButton5);
+        nbaMap.setOnClickListener(this);
+
     }
     @Override
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.button:
+            case R.id.imageButton2:
                 startActivity(new Intent(WelcomeActivity.this, TicketBooking.class));
+                break;
+
+            case R.id.imageButton5:
+                startActivity(new Intent(WelcomeActivity.this, NbaTourism.class));
+                break;
         }
+
     }
 }

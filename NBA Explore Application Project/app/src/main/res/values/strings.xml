@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NBA Explore Application</string>
+    <string name="title_activity_nba_tourism">NbaTourism</string>
 </resources>
